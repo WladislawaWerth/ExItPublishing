@@ -9,11 +9,13 @@
 p {
     font-family: sans-serif;
     letter-spacing: 1px;
+    color: black;
 }
 
 a {
     font-family: sans-serif;
     letter-spacing: 1px;
+    color:black;
   
 }
 
@@ -298,3 +300,30 @@ footer a {
     color: black;
     text-decoration: none;
 } 
+    
+    
+
+    
+    
+    
+    /* media query code that executes only on hand-hold devices */
+@media (max-width: 767.99999999px) {
+    div {
+        margin-bottom: 30px;
+    }
+}
+
+@ newImg {
+    position: relative;
+    left: -70px;
+    top: -100px;
+}
+/* change padding on mobile site*/
+@media (max-width: 767.99999999px) {
+    div {
+        padding-bottom: 20px;
+    }
+}
+
+
+

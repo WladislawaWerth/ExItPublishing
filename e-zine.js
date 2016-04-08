@@ -13,7 +13,7 @@ function draw(){
     
   
 
-  ambientMaterial(250);
+  ambientMaterial(255);
     background(255);
   translate(0, 0, -600);
   for(var i = 0; i <= 12; i++){
