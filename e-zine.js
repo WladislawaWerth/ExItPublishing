@@ -1,12 +1,12 @@
 var img;
 function setup(){
-  createCanvas(1370, 500, WEBGL);
+  createCanvas(1370, 390, WEBGL);
     img = loadImage("img/lllogo.png");
 }
 
 function draw(){
   
-  var radius = width * 0.8;
+  var radius = width * 0.65;
   
   //drag to move the world.
   orbitControl();
@@ -25,12 +25,12 @@ function draw(){
       if(j%2 === 0){
           
           texture(img);
-        box(8, 8, 8);
+        box(35, 35, 35);
          
       }else{
           
           texture(img);
-        box(9, 9, 9);
+        box(25, 25, 25);
           
       }
       pop();

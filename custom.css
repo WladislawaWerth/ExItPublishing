@@ -211,7 +211,7 @@ p {
 #page-publications .img-responsive {
     padding: 1px;
     margin: 50px 0;
-    align-items: center
+    align-items: center;
    
     
 };
@@ -219,6 +219,10 @@ p {
 small prints{
     padding: 30px;
     margin: 15px 0;
+}
+
+foter {
+    align-items: center;
 }
 
 #page-projects{
