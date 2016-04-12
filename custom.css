@@ -16,8 +16,9 @@ a {
     font-family: sans-serif;
     letter-spacing: 1px;
     color:black;
-  
 }
+
+
 
 h1 {
     font-family: sans-serif !important; /***** !important is used to override decisions - it is a great helper */
@@ -28,7 +29,23 @@ h1 {
     /* use fond tthat supports LATIN EXTENDED */
 }
 
+h8 {
+    font-family: sans-serif !important; /***** !important is used to override decisions - it is a great helper */
+    
+    font-weight: 900;
+    letter-spacing: 3px;
+    color:black;
+    /* use fond tthat supports LATIN EXTENDED */
+}
 
+h7 {
+    font-family: sans-serif !important; /***** !important is used to override decisions - it is a great helper */
+    font-weight: 300;
+    color:black;
+    padding: 30px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
 
 footer {
     font-family: sans-serif;
@@ -39,8 +56,9 @@ a href {
     font-family: sans-serif;
     letter-spacing: 1px;
     color:black;
-    
 }
+
+
 
 form {
     font-family: sans-serif;
@@ -328,6 +346,7 @@ footer a {
         padding-bottom: 20px;
     }
 }
+
 
 
 
