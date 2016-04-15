@@ -1,6 +1,6 @@
 var img;
 function setup(){
-  var myCanvas = createCanvas(1232, 370, WEBGL);
+  var myCanvas = createCanvas(1230, 370, WEBGL);
     myCanvas.parent('bubble');
     img = loadImage("img/lllogo.png");
 }
