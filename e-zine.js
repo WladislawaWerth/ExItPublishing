@@ -1,6 +1,7 @@
 var img;
 function setup(){
-  createCanvas(1370, 390, WEBGL);
+  var myCanvas = createCanvas(1232, 370, WEBGL);
+    myCanvas.parent('bubble');
     img = loadImage("img/lllogo.png");
 }
 
@@ -38,3 +39,6 @@ function draw(){
   }
 }
 
+function windowResized(){
+    resizeCanvas(windowWidth, windowHeight);
+}
