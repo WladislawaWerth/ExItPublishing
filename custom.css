@@ -18,6 +18,18 @@ a {
     color:black;
 }
 
+a2 {
+    font-family: sans-serif;
+    letter-spacing: 0,5px;
+    color:black;
+}
+
+a3 {
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    color:black;
+}
+
 
 
 h1 {
@@ -239,9 +251,7 @@ small prints{
     margin: 15px 0;
 }
 
-foter {
-    align-items: center;
-}
+
 
 #page-projects{
     background-color: rgb(0);
@@ -329,11 +339,23 @@ footer a {
     
     
     /* media query code that executes only on hand-hold devices */
-@media (max-width: 767.99999999px) {
+
+    @media (max-width: 767.99999999px) {
     div {
         margin-bottom: 30px;
     }
+    footer div{
+        display: inline-block!important;
+    }
 }
+
+@footer h6{
+        display: inline;
+        }
+  
+@footer ""{
+        display: inline;
+        }
 
 @ newImg {
     position: relative;
