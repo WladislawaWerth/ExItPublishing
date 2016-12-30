@@ -40,6 +40,5 @@ function draw(){
     ellipse(spot.x, spot.y, spot.r, spot.r);
 }
 
-function mousePressed(){
-}
+
 
